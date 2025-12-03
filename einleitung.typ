@@ -1,16 +1,16 @@
 #set text(font: "Helvetica Neue", size: 12pt)
-#set page(margin: (
-  top: 3cm,
-  bottom: 2cm,
-  x: 1.5cm,
-))
-#set text(lang: "de")
-#set page(binding: right)
-#footer(
-  aligned(0.5, pageNumber)
+#set page(
+  
+  footer: context align(center, {
+    counter(page).display()
+  }),
+  margin: (top: 3cm, bottom: 2cm, x: 1.5cm),
+  binding: right,
+  numbering: "1"  // ensures numbering is active
 )
+#set text(lang: "de")
 
-Der Wintermorgen hing dunstig über den Dächern, als Elias zügig aber nicht hastig die Straße entlangging. Sein Atem kondensierte in der Kälte, die Schritte knirschten leise auf dem gefrorenen Pflaster. Er hätte einen Pod rufen können, per Geste oder Signal, geladen aus den Randfeldern, ohne Wartezeiten oder Gebühren. Heute ging er aber Ausnahmsweise lieber zu Fuß, die Gassen geschmeidig unter seinen Sohlen, die Pods des freien Netzes glitten surrtend in gleichmäßigen Abständen vorbei, die grünen Kapseln sahen von weitem aus wie Insekten. 
+Der Wintermorgen hing dunstig über den Dächern, als Elias die Tür hinter sich zuzog und etwa drei Minuten später die Straße entlangging. Sein Atem kondensierte in der Kälte, die Schritte knirschten leise auf dem gefrorenen Pflaster. Er hätte einen Pod rufen können, per Geste oder Signal, geladen aus den Randfeldern, ohne Wartezeiten oder Gebühren. Heute ging er aber Ausnahmsweise lieber zu Fuß, die Gassen geschmeidig unter seinen Sohlen, die Pods des freien Netzes glitten surrtend in gleichmäßigen Abständen vorbei, die grünen Kapseln sahen von weitem aus wie Insekten. 
 
 Er genoss die Stille, die nur vom fernen Rauschen des Flusses und dem gelegentlichen flirren einer Drone unterbrochen wurde und wanderte zielstrebig durch die Straßen. Seine Gedanken kreisten um die Daten, die er gestern Abend noch geprüft hatte – eine Routinekontrolle, die plötzlich Fragen aufgeworfen hatte.
 
@@ -96,23 +96,24 @@ Elias wusste, dass er Antworten brauchte. Er musste vollen Zugriff auf die volls
 
 Er stand auf, streckte sich und blickte aus dem Fenster seines Apartments auf die Lichter der Stadt.  sein Blick blieb an etwas Unerwartetem hängen. Etwas stimmte nicht. Die Schatten der Umgebung wirkten verschoben, ein schwarzer Pod bewegte sich ungewöhnlich langsam, schien auf etwas zu lauern. 
 
-Über das Interface schaltete er auf den Nightvision-Modus, um die Szene draußen genauer zu analysieren. Er hoffte, mit der Infrarot- und Lichtverstärkung der digitalen Brille den schwarzen Pod auch bei der Dunkelheit klarer zu sehen. Doch das Bild blieb leer, verschleiert, als hätte jemand bewusst die Sicht blockiert. Nichts zeichnete sich im bildverstärkten Bildschirm ab – keine Wärme, kein Umriss, kein Bewegungsmuster. 
+Über das Interface schaltete er das Nachtsichtmodul auf die Retina, um die Szene draußen genauer zu analysieren. Er hoffte, mit der Infrarot- und Lichtverstärkung der digitalen Brille den schwarzen Pod auch bei der Dunkelheit klarer zu sehen. Doch das Bild blieb leer, verschleiert, als hätte jemand bewusst die Sicht blockiert. Nichts zeichnete sich im verstärkten Signal ab – keine Wärme, kein Umriss, kein Bewegungsmuster. 
 
-So funktionierte das System normalerweise nicht. Nightvision-Module verstärkten vorhandenes Restlicht und erfassten sogar minimale Wärmequellen, doch nun hinderte ihn eine unerklärliche Störung daran, die Umgebung zu durchdringen. War dies eine technische Fehlfunktion oder eine gezielte Fremdeinwirkung? – versuchte da jemand aktiv, seine Sicht und Überwachung zu sabotieren, um unerkannt zu bleiben? 
+So funktionierte das System normalerweise nicht. Sein Nachtsicht-Modul verstärkte vorhandenes Restlicht und erfasste sogar minimale Wärmequellen, doch nun hinderte ihn eine unerklärliche Störung daran, die Umgebung zu durchdringen. War dies eine technische Fehlfunktion oder eine gezielte Fremdeinwirkung? – versuchte da jemand aktiv, seine Sicht und Überwachung zu sabotieren, um unerkannt zu bleiben? 
 
-Sein Herz schlug schneller, als er realisierte, dass sich ein paar Schatten aus dem Pod lösten und Richtung Hautschleuse eilten. Ein ungutes Gefühl breitete sich aus, fast so, als ob die Welt da draußen plötzlich in eine andere Harmonie gefallen wäre, in der alles nicht so unbeteiligt war, wie es von seinem Fenster aus schien. Elias wusste, dass dieser Augenblick die Ruhe vor dem Sturm war.
+Sein Herz schlug schneller, als er realisierte, dass sich ein paar Schatten aus dem Pod lösten und Richtung Hautschleuse eilten. Mit bloßen Augen waren sie kaum zu erkennen, die gescheidigen Bewegungen in seinem Sichtfeld waren nicht mehr als ein flimmern. Ein ungutes Gefühl breitete sich aus, fast so, als ob die Welt da draußen plötzlich in eine andere Harmonie gefallen wäre, in der alles nicht so unbeteiligt war, wie es von seinem Fenster aus schien. Elias wusste, dass dieser Augenblick die Ruhe vor dem Sturm war. 
 
-Er musste es nicht nachrechnen: Die äußere Schleuse brauchte 45 Sekunden zum Scannen und Öffnen, dann der Hauptgang mit zwei weiteren Türen – je 30 Sekunden plus Wartezeit für Druckausgleich –, gefolgt von der Etagenaufzugfahrt und dem letzten Korridor bis zu seiner Tür. Insgesamt maximal drei Minuten, wenn sie keine Störung hatten; er kannte das System auswendig, hatte es versucht zu optimieren aber war gescheitert.
+Er musste es nicht nachrechnen: Die äußere Schleuse brauchte 45 Sekunden zum Scannen und Öffnen, dann der Hauptgang mit zwei weiteren Türen – je 30 Sekunden plus Wartezeit für Druckausgleich –, gefolgt von der Etagenaufzugfahrt und dem letzten Korridor bis zu seiner Tür. Insgesamt maximal drei Minuten, wenn sie keine Störung hatten; er kannte das System auswendig, hatte es versucht zu optimieren aber war immer wieder an den Sicherheitsprotokollen gescheitert.
 
 Elias griff hastig in seine Tasche, schnappte sich den Mikrocontroller, die Dokumente und ein paar unverzichtbare Werkzeuge. Seine Finger bewegten sich wie automatisch, während er alles so verstaute, dass es schnell griffbereit war, ohne Zeit zu verlieren. Die Routine packte ihn wie in einem Tunnel – keine Zeit für Zweifel oder Panik. Mit einer leisen Bewegung schloss er die Tür hinter sich, so behutsam, als wolle er selbst keinen Schatten wecken.
 
-Kaum war die Tür ins Schloss gefallen, drangen gedämpfte Geräusche aus dem Treppenhaus zu ihm hoch. Schnelle Schritte, tiefe Stimmen, ein leises Klirren. Elias blieb noch einen Moment in der Stille stehen, lauschte mit angespanntem Herzen, bevor er sich entschied, vorsichtig und lautlos den Flur entlang zu schleichen. Jeder Atemzug war kontrolliert, jeder Schritt bedacht. 
+Kaum war die Tür ins Schloss gefallen, drangen gedämpfte Geräusche aus dem Treppenhaus zu ihm hoch. Schnelle Schritte, tiefe Stimmen, ein leises Klirren. Elias blieb noch einen Moment in der Stille der Eage stehen, lauschte mit angespanntem Herzen, bevor er sich entschied, vorsichtig und lautlos den Flur entlang zu schleichen. Jeder Atemzug war kontrolliert, jeder Schritt bedacht. 
 
-Instinktiv steuerte er auf den Versorgungskanal für die Lieferdrohnen zu, diesen schmalen, aber stabilen Schacht in der Wand neben dem Treppenhaus – ein Wartungstunnel für die kleinen Paketdrohnen, die täglich Güter wie in alten Rohrpost-Systemen beförderten, nur aus Metall und mit Gleitschienen für präzise Landungen. Mit einer fließenden Handbewegung entfernte er die Abdeckung, ein mattes Gitter aus Sicherheitslegierung, und ohne zu zögern rutschte er blitzschnell hinein, befestigte den Staubschutz so gut es ging von innen.
+Instinktiv steuerte er auf den Versorgungskanal für die Lieferdrohnen zu, einen schmalen, aber stabilen Schacht in der Wand neben dem Treppenhaus – ein Wartungstunnel für die kleinen Paketdrohnen, die täglich Güter wie in alten Rohrpost-Systemen beförderten, nur aus Metall und mit Gleitschienen für präzise Landungen. Mit einer fließenden Handbewegung entfernte er die Abdeckung, ein mattes Gitter aus Sicherheitslegierung, und ohne zu zögern rutschte er blitzschnell hinein, befestigte den Staubschutz so gut es ging von innen.
 
 Er spürte die kühlen Metallwände an seinen Händen, während er sich über die Kante in den engen Schacht hinabgleiten ließ – die Röhre war gerade breit genug für Drohnen mit bis zu 5 kg Nutzlast, glatt poliert von täglichem Gebrauch, und Elias passte sich dem Gefälle an, Arme ausgestreckt zum Bremsen. In diesem Augenblick hörte er irgendwo schräg über sich das leise, aber unverkennbare Klicken seines Türschlosses, als sich der Riegel zurückzog – ein sattes, metallisches Einrasten, das in der Stille des Hauses umso bedrohlicher wirkte.
 
 Der Schacht führte steil abwärts, vorbei an Sensorpunkten für Drohnen-Navigation, und Elias kontrollierte sein Tempo mit Füßen an den Wänden, zählte die Sekunden – zwei Minuten seit dem Alarm, genug Puffer durch die Schleusen oben. Nach weiteren 90 Sekunden erreichte er das Ende, wo eine kleine Luke in den Hinterhof führte, ein Notausstieg mit biometrischem Override für Wartung. Er öffnete sie vorsichtig, spähte hinaus und sah sich um: Die Straße war leer, nur der schwarze Pod stand noch immer dort, aber die Männer waren verschwunden. Er atmete tief durch, kletterte aus dem Schacht und versteckte sich schnell in einem naheliegenden dichten Kirschloorbeer Gebüsch.
+
 
 Elias zog vorsichtig sein Interface vom Arm, das schlanke und doch vielseitige Gerät, das ihn ständig mit seinem Terminal und der Außenwelt verband. Während seine Finger flink über das Bedienfeld glitten, entdeckte er eine fremde Software-Installation, die er nicht autorisiert hatte. Es war ein Tracker, installiert als Teil eines Sicherheitsupdates beim Einloggen in sein Terminal heute Morgen – ein heimlicher Verräter, der jeden seiner Schritte überwachte. Die Gewissheit schnürte ihm die Kehle zu. Er musste den
 Tracker schnell entfernen, bevor er weiter Informationen preisgab. 
@@ -314,6 +315,6 @@ Er musste einen Empfänger einrichten, der die gewaltige Flut der extradierten D
 
 Sein Blick wanderte auf eine vergilbte Karte, die an Antons Wand hing. Er fand sie – die Telekommunikations-Relaisstation Null-Drei. Stillgelegt, außerhalb der Stadtmauern, aber mit einem isolierten Netzwerk-Knoten und einer unabhängigen Energieversorgung. Ein digitaler Blind-Knoten.
 
-Er atmete tief durch, setzte das Interface-Armband wieder an und aktivierte es. Die vertraute Oberfläche erschien, und er navigierte schnell zu den Netzwerkeinstellungen. Mit zitternden Fingern richtete er eine sichere Verbindung zu der Relaisstation ein, nutzte die zuvor installierten Sicherheitsprotokolle, um unbemerkt zu bleiben.
+Er atmete tief durch, setzte das Interface wieder an und aktivierte es. Die vertraute Oberfläche erschien, und er navigierte schnell zu den Netzwerkeinstellungen. Mit zitternden Fingern richtete er eine sichere Verbindung zu der Relaisstation ein, nutzte die zuvor installierten Sicherheitsprotokolle, um unbemerkt zu bleiben.
 
 
